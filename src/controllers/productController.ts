@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import ProductService from '../services/productService';
 import statusCodes from '../helpers/statusCodes';
 
-export default class UserController {
+export default class ProductController {
   public service: ProductService;
 
   constructor() {

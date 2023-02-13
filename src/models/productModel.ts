@@ -2,7 +2,6 @@ import { Pool, ResultSetHeader } from 'mysql2/promise';
 import { IProduct } from '../interfaces/Iproduct';
 
 export default class ProductModel {
-  // levar todos metodos de user (p acessar o banco)
   public connection: Pool;
 
   constructor(connection: Pool) {
